@@ -1,5 +1,6 @@
-export ARCHFLAGS="-arch x86_64"
 export PATH="$HOME/bin:/usr/local/bin:$PATH";
+eval "$(hub alias -s)"
+
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

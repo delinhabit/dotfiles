@@ -1,5 +1,6 @@
 source ~/.git-completion.sh
 source ~/.git-prompt.sh
+source ~/.hub-completion.sh
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
