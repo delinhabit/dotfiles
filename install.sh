@@ -7,5 +7,5 @@ git submodule update --init --recursive .oh-my-zsh/
 
 for dotfile in $(ls -1Ap | grep -v "\.git" | grep "^\.[^\.]*$")
 do
-    ln -s "$(pwd)"/"${dotfile}" "$HOME"/"${dotfile//\//}"
+    ln -sF "$(pwd)"/"${dotfile}" "$HOME"/"${dotfile//\//}"
 done
