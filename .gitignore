@@ -1,0 +1,7 @@
+*.swp
+.ropeproject/
+ve/
+.idea/misc.xml
+build.gradle
+gradle-wrapper.properties
+project.pbxproj
