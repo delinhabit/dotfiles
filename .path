@@ -1,0 +1,2 @@
+# Profile level scripts
+export PATH=$PATH:~/bin
