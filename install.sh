@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 git submodule init .vim/
 git submodule update --init --recursive .vim/
 
@@ -7,5 +7,5 @@ git submodule update --init --recursive .oh-my-zsh/
 
 for dotfile in $(ls -1Ap | grep -v "\.git" | grep "^\.[^\.]*$")
 do
-    ln -s "$(pwd)"/"${dotfile}" ~/t/"${dotfile//\//}"
+    ln -s "$(pwd)"/"${dotfile}" "$HOME"/"${dotfile//\//}"
 done
