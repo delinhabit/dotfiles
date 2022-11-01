@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 git submodule init .vim/
 git submodule update --init --recursive .vim/
 
